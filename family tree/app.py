@@ -20,14 +20,14 @@ def home2():
     nome = "painho"
     idade = "61"
 
-    return render_template('index.html' , nome = nome , idade = idade)
+    return render_template('pai.html' , nome = nome , idade = idade)
     
 @app.route("/mainha")
 def home2():
     nome = "mainha"
     idade = "54"
 
-    return render_template('index.html' , nome = nome , idade = idade)
+    return render_template('mae.html' , nome = nome , idade = idade)
     
     
 
